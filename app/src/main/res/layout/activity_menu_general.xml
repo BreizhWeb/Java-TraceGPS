@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_linearLayout1"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="haupas.android.tracegps.MenuGeneral">
+
+    <TextView
+        android:id="@+id/menu_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/menu_titre1"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/menu_bouton_tester_geolocalisation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_tester_geolocalisation"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/menu_bouton_demander_autorisation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_demander_autorisation"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/menu_bouton_retirer_autorisation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_retirer_autorisation"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/menu_bouton_demarrer_enregistrement"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_demarrer_enregistrement"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/menu_bouton_consulter_parcours"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_consulter_parcours"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/menu_bouton_supprimer_parcours"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_supprimer_parcours"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/menu_bouton_changer_mdp"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_changer_mdp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/menu_bouton_lister_utilisateurs"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_lister_utilisateurs"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/menu_bouton_supprimer_utilisateur"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_supprimer_utilisateur"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/menu_bouton_deconnecter"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_deconnecter"
+        android:textSize="16sp"
+        tools:text="@string/menu_bouton_deconnecter" />
+
+</LinearLayout >
